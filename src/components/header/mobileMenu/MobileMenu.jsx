@@ -39,7 +39,7 @@ export default function MobileMenu() {
                 <LightButton />
               </button>
             </div>
-            <a href="#fill" className="button b2m" download>
+            <a href="/resume/resume.pdf"className="button b2m" download>
               Download Resume
             </a>
           </div>

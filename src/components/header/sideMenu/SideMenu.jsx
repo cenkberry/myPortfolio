@@ -8,7 +8,7 @@ export default function SideMenu() {
         <button className="icon-button">
           <LightButton />
         </button>
-        <a href="#fill" className="button b2m" download>
+        <a href="/resume/resume.pdf" className="button b2m" download>
           Download Resume
         </a>
       </div>

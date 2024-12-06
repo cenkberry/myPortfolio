@@ -16,7 +16,6 @@
   margin-left: -2px;
   .box,
   [class*="box-"] {
-    flex: 1 0 0;
     padding-right: 2px;
     padding-left: 2px;
   }
@@ -73,6 +72,12 @@
   justify-content: space-between;
 }
 
+@for $i from 1 through 12 {
+  .order-#{$i} {
+    order: $i;
+  }
+}
+
 // Box Size Definition
 @for $i from 1 through 12 {
   .box-#{$i} {
@@ -122,6 +127,9 @@
     display: none;
   }
   // Box
+  .box-mob {
+    flex: 1 0 0 !important;
+  }
   .box-sm-auto {
     width: unset !important;
     flex: 0 0 auto !important;
@@ -153,6 +161,9 @@
     display: none;
   }
   // Box
+  .box-tab {
+    flex: 1 0 0 !important;
+  }
   .box-tab-auto {
     width: unset !important;
     flex: 0 0 auto !important;
@@ -184,6 +195,9 @@
     display: none;
   }
   // Box
+  .box-lap {
+    flex: 1 0 0 !important;
+  }
   .box-lap-auto {
     width: unset !important;
     flex: 0 0 auto !important;
@@ -215,6 +229,9 @@
     display: none;
   }
   // Box
+  .box-desk {
+    flex: 1 0 0 !important;
+  }
   .box-desk-auto {
     width: unset !important;
     flex: 0 0 auto !important;
@@ -246,6 +263,9 @@
     display: none;
   }
   // Box
+  .box-big {
+    flex: 1 0 0 !important;
+  }
   .box-big-auto {
     width: unset !important;
     flex: 0 0 auto !important;
