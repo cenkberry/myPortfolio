@@ -1,0 +1,25 @@
+@import "_root.scss";
+@import "_reset.scss";
+@import "_typo.scss";
+@import "_grid.scss";
+@import "_elements.scss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--col-600);
+  background-color: var(--col-def);
+  &.overlay-active {
+    max-height: 100vh;
+    overflow: hidden;
+  }
+}

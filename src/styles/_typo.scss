@@ -1,0 +1,117 @@
+// Define Typography classes
+.h1 {
+  font-size: 60px;
+  line-height: 72px;
+  font-weight: 700;
+  letter-spacing: -0.32px;
+  @media screen and (max-width: 1024px) {
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -0.96px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+
+.h2 {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 600;
+  letter-spacing: -0.72px;
+  @media screen and (max-width: 1024px) {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.36px;
+  }
+}
+
+.h3 {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 600;
+  letter-spacing: -0.60px;
+  @media screen and (max-width: 1024px) {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.48px;
+  }
+}
+
+.h3b {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  letter-spacing: -0.60px;
+  @media screen and (max-width: 1024px) {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.48px;
+  }
+}
+
+.sub {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  @media screen and (max-width: 1024px) {
+    font-size: 18px;
+  }
+}
+
+.subb {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  @media screen and (max-width: 1024px) {
+    font-size: 18px;
+  }
+}
+
+.b1 {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  @media screen and (max-width: 1024px) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.b2 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.b2u {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.b2m {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.b2sb {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.b3 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.b3m {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}

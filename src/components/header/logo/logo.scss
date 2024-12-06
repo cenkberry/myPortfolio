@@ -1,0 +1,7 @@
+.logo {
+  padding: 16px 0;
+  color: var(--col-900);
+  @media screen and (max-width: 1024px) {
+    padding: 8px 2px;
+  }
+}

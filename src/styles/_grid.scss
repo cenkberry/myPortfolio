@@ -1,0 +1,271 @@
+.container {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2px;
+  @media screen and (min-width: 1023px) {
+    padding: 0 16px;
+    max-width: 1472px;
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -2px;
+  margin-left: -2px;
+  .box,
+  [class*="box-"] {
+    flex: 1 0 0;
+    padding-right: 2px;
+    padding-left: 2px;
+  }
+  > * {
+    flex-shrink: 0;
+    width: 100%;
+  }
+  @media screen and (min-width: 1023px) {
+    margin-right: -8px;
+    margin-left: -8px;
+    .box,
+    [class*="box-"] {
+      padding-right: 8px;
+      padding-left: 8px;
+    }
+  }
+}
+
+// Box System
+.box {
+  flex: 1 0 0;
+}
+
+.box-auto {
+  width: unset !important;
+  flex: 0 0 auto !important;
+}
+
+// Display
+.db {
+  display: block;
+}
+.dn {
+  display: none;
+}
+
+.df {
+  display: flex;
+}
+
+.aic {
+  align-items: center;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.jce {
+  justify-content: flex-end;
+}
+
+.jcsb {
+  justify-content: space-between;
+}
+
+// Box Size Definition
+@for $i from 1 through 12 {
+  .box-#{$i} {
+    flex: 0 0 auto;
+    width: calc(100% / 12 * $i) !important;
+  }
+}
+
+// Media Queries 
+@media (min-width: 424px) {
+  .sm-db {
+    display: block;
+  }
+  .sm-dn {
+    display: none;
+  }
+  .box-sm-auto {
+    width: unset !important;
+    flex: 0 0 auto !important;
+  }
+  // Box
+  @for $i from 1 through 12 {
+    .box-sm-#{$i} {
+      flex: 0 0 auto;
+      width: calc((100% / 12) * $i) !important;
+    }
+  }
+  // Offset
+  @for $i from 1 through 12 {
+    .offset-sm-#{$i} {
+      margin-left: calc((100% / 12) * $i);
+    }
+  }
+  // Order
+  @for $i from 1 through 12 {
+    .order-sm-#{$i} {
+      order: $i;
+    }
+  }
+
+}
+@media (min-width: 576px) {
+  .mob-db {
+    display: block;
+  }
+  .mob-dn {
+    display: none;
+  }
+  // Box
+  .box-sm-auto {
+    width: unset !important;
+    flex: 0 0 auto !important;
+  }
+  @for $i from 1 through 12 {
+    .box-mob-#{$i} {
+      flex: 0 0 auto;
+      width: calc((100% / 12) * $i) !important;
+    }
+  }
+  // Offset
+  @for $i from 1 through 12 {
+    .offset-mob-#{$i} {
+      margin-left: calc((100% / 12) * $i);
+    }
+  }
+  // Order
+  @for $i from 1 through 12 {
+    .order-mob-#{$i} {
+      order: $i;
+    }
+  }
+}
+@media (min-width: 767px) {
+  .tab-db {
+    display: block;
+  }
+  .tab-dn {
+    display: none;
+  }
+  // Box
+  .box-tab-auto {
+    width: unset !important;
+    flex: 0 0 auto !important;
+  }
+  @for $i from 1 through 12 {
+    .box-tab-#{$i} {
+      flex: 0 0 auto;
+      width: calc((100% / 12) * $i) !important;
+    }
+  }
+  // Offset
+  @for $i from 1 through 12 {
+    .offset-tab-#{$i} {
+      margin-left: calc((100% / 12) * $i);
+    }
+  }
+  // Order
+  @for $i from 1 through 12 {
+    .order-tab-#{$i} {
+      order: $i;
+    }
+  }
+}
+@media (min-width: 1023px) {
+  .lap-db {
+    display: block;
+  }
+  .lap-dn {
+    display: none;
+  }
+  // Box
+  .box-lap-auto {
+    width: unset !important;
+    flex: 0 0 auto !important;
+  }
+  @for $i from 1 through 12 {
+    .box-lap-#{$i} {
+      flex: 0 0 auto;
+      width: calc((100% / 12) * $i) !important;
+    }
+  }
+  // Offset
+  @for $i from 1 through 12 {
+    .offset-lap-#{$i} {
+      margin-left: calc((100% / 12) * $i);
+    }
+  }
+  // Order
+  @for $i from 1 through 12 {
+    .order-lap-#{$i} {
+      order: $i;
+    }
+  }
+}
+@media (min-width: 1440px) {
+  .desk-db {
+    display: block;
+  }
+  .desk-dn {
+    display: none;
+  }
+  // Box
+  .box-desk-auto {
+    width: unset !important;
+    flex: 0 0 auto !important;
+  }
+  @for $i from 1 through 12 {
+    .box-desk-#{$i} {
+      flex: 0 0 auto;
+      width: calc((100% / 12) * $i) !important;
+    }
+  }
+  // Offset
+  @for $i from 1 through 12 {
+    .offset-desk-#{$i} {
+      margin-left: calc((100% / 12) * $i);
+    }
+  }
+  // Order
+  @for $i from 1 through 12 {
+    .order-desk-#{$i} {
+      order: $i;
+    }
+  }
+}
+@media (min-width: 1600px) {
+  .big-db {
+    display: block;
+  }
+  .big-dn {
+    display: none;
+  }
+  // Box
+  .box-big-auto {
+    width: unset !important;
+    flex: 0 0 auto !important;
+  }
+  @for $i from 1 through 12 {
+    .box-big-#{$i} {
+      flex: 0 0 auto;
+      width: calc((100% / 12) * $i) !important;
+    }
+  }
+  // Offset
+  @for $i from 1 through 12 {
+    .offset-big-#{$i} {
+      margin-left: calc((100% / 12) * $i);
+    }
+  }
+  // Order
+  @for $i from 1 through 12 {
+    .order-big-#{$i} {
+      order: $i;
+    }
+  }
+}

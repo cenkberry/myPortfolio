@@ -1,0 +1,75 @@
+.button {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 16px;
+  border-radius: 12px;
+  color: var(--col-50);
+  background-color: var(--col-900);
+  transition: all 0.3s linear;
+  &:hover {
+    background-color: var(--col-700);
+  }
+  &:active {
+    background-color: var(--col-800);
+  }
+}
+
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  border-radius: 8px;
+  background-color: transparent;
+  transition: all 0.3s linear;
+  svg {
+    path {
+      stroke: var(--col-600);
+      transition: all 0.3s linear;
+    }
+    @media screen and (max-width: 1024px) {
+      path {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    &:hover {
+      background-color: var(--col-100);
+      svg {
+        path {
+          stroke: var(--col-700);
+        }
+      }
+    }
+    &:active {
+      background-color: var(--col-200);
+      > svg {
+        path {
+          stroke: var(--col-600);
+        }
+      }
+    }
+  }
+}
+
+.tag {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 20px;
+  border-radius: 12px;
+  color: var(--col-600);
+  background-color: var(--col-200);
+}
+
+.shadow {
+  box-shadow: 0 4px 3px rgba(0, 2, 2, 0.06);
+  @media screen and (min-width: 768px) {
+    box-shadow: 0 4px 3px rgba(0, 4, 3, 0.07);
+  }
+}

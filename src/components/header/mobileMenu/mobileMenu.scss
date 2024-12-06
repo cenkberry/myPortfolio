@@ -1,0 +1,34 @@
+.mobileMenu {
+  position: fixed;
+  right: -100%;
+  top: 0;
+  z-index: 10;
+  overflow: hidden;
+  width: 100%;
+  height: 100dvh;
+  max-height: 100dvh;
+  transition: all 0.3s linear;
+  background-color: var(--col-def);
+  &.active {
+    right: 0;
+  }
+  > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    margin-top: 4px;
+    border-top: 1px solid var(--col-100);
+    border-bottom: 1px solid var(--col-100);
+  }
+  .mobile-buttons {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+.hamburger-react {
+  z-index: 1000;
+}

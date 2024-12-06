@@ -9,12 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "hamburger-react": "^2.5.1",
+    "install": "^0.13.0",
+    "next": "14.2.3",
+    "npm": "^10.9.2",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.3"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "eslint": "^8",
-    "eslint-config-next": "14.2.3"
+    "eslint-config-next": "14.2.3",
+    "sass": "^1.82.0",
+    "sass-loader": "^16.0.4",
+    "webpack": "^5.97.1"
   }
 }

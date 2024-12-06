@@ -1,0 +1,32 @@
+// Define Css Variables in root
+:root {
+  --col-def: #ffffff;
+  --col-50: #f9fafb;
+  --col-100: #f3f4f6;
+  --col-200: #e5e7eb;
+  --col-300: #d1d5db;
+  --col-400: #9ca3af;
+  --col-500: #6b7280;
+  --col-600: #4b5563;
+  --col-700: #374151;
+  --col-800: #1f2937;
+  --col-900: #111827;
+  --col-950: #030712;
+  --col-emerald: #10b981;
+}
+
+
+body.dark {
+  --col-def: #030712;
+  --col-50: #111827;
+  --col-100: #1f2937;
+  --col-200: #374151;
+  --col-300: #4b5563;
+  --col-400: #6b7280;
+  --col-500: #9ca3af;
+  --col-600: #d1d5db;
+  --col-700: #e5e7eb;
+  --col-800: #f3f4f6;
+  --col-900: #f9fafb;
+  --col-950: #ffffff;
+}
