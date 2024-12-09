@@ -5,7 +5,7 @@ export default function SideMenu() {
   return (
     <div className="dn lap-db box-auto">
       <div className="sideMenu">
-        <button type="button" role="button" className="icon-button">
+        <button aria-label="light button" className="icon-button">
           <LightButton />
         </button>
         <a href="/resume/resume.pdf" className="button b2m" download>

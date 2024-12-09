@@ -23,7 +23,7 @@ export default function About() {
           <div className="box-lap-6">
             <div className="about-content">
               <div className="title h3b">
-                Curious about me? Here you have it:
+                Curious about me?
               </div>
               <div className="content b2">
                 Hello! I am Cenk, a frontend developer with 10 years of

@@ -6,6 +6,7 @@
   box-sizing: border-box;
   -webkit-tap-highlight-color: transparent !important;
 }
+
 html,
 body,
 div,
@@ -97,6 +98,7 @@ video {
   vertical-align: baseline;
   outline: none;
 }
+
 article,
 aside,
 details,
@@ -110,17 +112,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -128,22 +134,29 @@ q:after {
   content: '';
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 audio,
 canvas,
 video {
   display: inline-block;
 }
+
 a {
   background: transparent;
   text-decoration: none;
   outline: none;
   &:visited {
-    color: inherit;
+    color: var(--col-600);
   }
+  &:focus {
+    color: var(--col-600);
+  }
+
 }
 
 button,
@@ -159,10 +172,12 @@ textarea {
   -moz-appearance: none;
   appearance: none;
 }
+
 button,
 input {
   overflow: visible;
 }
+
 button {
   cursor: pointer;
   margin: 0;
@@ -171,23 +186,28 @@ button {
   border-radius: 0;
   border: none;
 }
+
 [role="button"] {
   cursor: pointer;
 }
+
 input[type='search']::-webkit-search-decoration,
 input[type='search']::-webkit-search-cancel-button {
   -webkit-appearance: none;
 }
+
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
 input {
   margin: 0;
   padding: 0;
@@ -199,23 +219,28 @@ input {
   border: none;
   border-radius:0;
 }
+
 iframe {
   border: 0;
 }
+
 fieldset {
   min-width: 0;
   padding: 0;
   margin: 0;
   border: 0;
 }
+
 textarea {
   overflow: auto;
   vertical-align: top;
 }
+
 textarea:focus,
 input:focus {
   outline: 0;
 }
+
 .h1,
 .h2,
 .h3,
@@ -231,12 +256,14 @@ h6 {
   margin: 0;
   padding: 0;
 }
+
 img {
   border: 0;
   display: block;
   max-width: 100%;
   height: auto;
 }
+
 main {
   margin: 0;
   padding: 0;
