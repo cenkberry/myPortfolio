@@ -74,10 +74,10 @@
         background-color: var(--col-200);
         border-radius: 100%;
         transform: unset;
-        width: 400px;
-        height: 400px;
+        width: 463px;
+        height: 463px;
         top: 0;
-        left: 10%;
+        left: -2%;
         transform: unset;
         animation: move 7s linear infinite;
       }
@@ -87,13 +87,14 @@
 
 @keyframes move {
   0%{
-    left: 10%;
+    left: -2%;
   }
   50%{
-    left: 25%;
+    left: 20%;
     top: 10%;
   }
   100%{
     top: 0;
+    left: -2%;
   }
 }

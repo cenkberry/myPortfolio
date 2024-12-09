@@ -65,8 +65,8 @@ export default function Hero() {
                   priority={true}
                   src="/hero/hero.webp"
                   alt=""
-                  width={400}
-                  height={400}
+                  width={463}
+                  height={463}
                   unoptimized
                 />
               </div>
