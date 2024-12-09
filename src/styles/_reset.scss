@@ -150,13 +150,16 @@ a {
   background: transparent;
   text-decoration: none;
   outline: none;
+  color: var(--col-600);
   &:visited {
     color: var(--col-600);
   }
   &:focus {
     color: var(--col-600);
   }
-
+  &:hover {
+    color: var(--col-600);
+  }
 }
 
 button,
