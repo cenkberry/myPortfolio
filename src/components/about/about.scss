@@ -1,0 +1,30 @@
+.about {
+  &-photo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media screen and (max-width: 1024px) {
+      margin-bottom: 24px;
+    }
+  }
+  &-content {
+    @media screen and (min-width: 1023px) {
+      padding-left: 16px;
+      padding-right: 32px;
+    }
+    .title {
+      color: var(--col-900);
+      margin-bottom: 16px;
+      @media screen and (min-width: 1023px) {
+        margin-bottom: 24px;
+      }
+    }
+    .content {
+      margin-bottom: 12px;
+      @media screen and (min-width: 1023px) {
+        margin-bottom: 16px;
+      }
+    }
+  }
+}

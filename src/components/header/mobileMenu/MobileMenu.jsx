@@ -35,7 +35,7 @@ export default function MobileMenu() {
           <div className="mobile-buttons">
             <div className="df aic jcsb">
               <div className="b2">Switch Theme</div>
-              <button>
+              <button type="button" role="button">
                 <LightButton />
               </button>
             </div>

@@ -10,8 +10,6 @@ html {
 
 body {
   position: relative;
-  margin: 0;
-  padding: 0;
   width: 100%;
   font-size: 16px;
   line-height: 24px;
@@ -21,5 +19,25 @@ body {
   &.overlay-active {
     max-height: 100vh;
     overflow: hidden;
+  }
+  @media screen and (min-width: 1024px) {
+    &::-webkit-scrollbar {
+      width: 12px;
+    }
+    
+    /* Track */
+    &::-webkit-scrollbar-track {
+      background: var(--col-200); 
+    }
+     
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      background: var(--col-600);
+    }
+    
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+      background: var(--col-900);
+    }
   }
 }

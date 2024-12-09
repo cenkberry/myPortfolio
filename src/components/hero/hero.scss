@@ -1,8 +1,4 @@
 .hero {
-  padding: 16px 0;
-  @media screen and (min-width: 1024px) {
-    padding: 96px 0;
-  }
   .hero-content {
     display: flex;
     flex-direction: column;

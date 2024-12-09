@@ -1,0 +1,87 @@
+.experience {
+  .items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    @media screen and (min-width: 1024px) {
+      gap: 36px;
+      padding: 0 48px;
+    }
+    @media screen and (min-width: 1440px) {
+      gap: 60px;
+      padding: 0 148px;
+    }
+    .item {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      gap: 16px;
+      padding: 16px;
+      padding-bottom: 32px;
+      width: 100%;
+      border-radius: 12px;
+      @media screen and (min-width: 1024px) {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 0;
+        padding: 32px;
+        padding-bottom: 64px;
+      }
+      .image {
+        order: 2;
+        @media screen and (min-width: 1024px) {
+          order: 1;
+          flex: 0 0 30%;
+        }
+      }
+      .work {
+        order: 3;
+        @media screen and (min-width: 1024px) {
+          order: 2;
+          flex: 0 0 40%;
+        }
+        .title {
+          color: var(--col-900);
+          margin-bottom: 4px;
+          @media screen and (min-width: 1024px) {
+            margin-bottom: 8px;
+          }
+        }
+        .firm {
+          margin-bottom: 18px;
+        }
+        .details {
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+          .detail {
+            position: relative;
+            padding-left: 16px;
+
+            &::before {
+              content: "";
+              position: absolute;
+              top: 10px;
+              left: 3px;
+              width: 6px;
+              height: 6px;
+              border-radius: 100%;
+              background-color: var(--col-600);
+            }
+          }
+        }
+      }
+      .dates {
+        order: 1;
+        text-align: end;
+        color: var(--col-700);
+        @media screen and (min-width: 1024px) {
+          order: 3;
+          flex: 0 0 30%;
+        }
+      }
+    }
+  }
+}

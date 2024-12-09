@@ -2,7 +2,7 @@
   display: block;
   width: 100%;
   margin: 0 auto;
-  padding: 0 2px;
+  padding: 0 4px;
   @media screen and (min-width: 1023px) {
     padding: 0 16px;
     max-width: 1472px;
@@ -12,12 +12,12 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -2px;
-  margin-left: -2px;
+  margin-right: -4px;
+  margin-left: -4px;
   .box,
   [class*="box-"] {
-    padding-right: 2px;
-    padding-left: 2px;
+    padding-right: 4px;
+    padding-left: 4px;
   }
   > * {
     flex-shrink: 0;

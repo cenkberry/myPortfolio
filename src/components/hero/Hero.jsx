@@ -9,20 +9,22 @@ import Instagram from "@/assets/hero/insta.svg";
 
 export default function Hero() {
   return (
-    <div className="hero">
+    <section className="hero">
       <div className="container">
         <div className="row aic">
           <div className="box-lap-7 order-2 order-lap-1">
             <div className="hero-content">
-              <div className="title h1">Hi, I’m Cenk Beri 👋</div>
+              <div className="title h1">Hi, I am Cenk Beri 👋</div>
               <div className="subtitle b2">
-                A frontend developer specializing in creating user-friendly and
-                efficient web applications. I work with technologies like HTML,
-                CSS, JavaScript, React, and Next.js. In my projects, I actively
-                utilize Firebase, Jest, and TypeScript. I enjoy crafting clean,
-                modular code and building interfaces that deliver a seamless
-                user experience. I am always eager to learn and grow in my
-                field.
+                A frontend developer with 10 years of experience specializing in
+                HTML, CSS, JavaScript, React.js, and Next.js. I have extensive
+                experience with Firebase, Supabase, and testing with Jest.
+                Skilled in creating user-friendly, high-performance web
+                applications, I actively use design tools like Figma, Photoshop,
+                and Adobe XD. I’ve contributed to global projects at an
+                international firm abroad, constantly improving my technical and
+                strategic approach. My goal is to build innovative, efficient,
+                and visually appealing digital experiences.
               </div>
               <div className="infos">
                 <div>
@@ -35,7 +37,7 @@ export default function Hero() {
                 </div>
               </div>
               <div className="social">
-                <Link href="https://github.com/cenkberry" aria-label="TGithub">
+                <Link href="https://github.com/cenkberry" aria-label="Github">
                   <div className="icon-button">
                     <Github />
                   </div>
@@ -72,6 +74,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

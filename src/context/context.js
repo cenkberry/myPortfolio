@@ -1,15 +1,15 @@
 export const menuLinks = [
   {
-    name: "Link1",
-    url : "#link1"
+    name: "About",
+    url : "#about"
   },
   {
-    name: "Link2",
-    url : "#link2"
+    name: "Skills",
+    url : "#skills"
   },
   {
-    name: "Link3",
-    url : "#link3"
+    name: "Experiences",
+    url : "#experience"
   },
   {
     name: "Link2",
