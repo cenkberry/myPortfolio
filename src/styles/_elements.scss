@@ -5,12 +5,15 @@
   justify-content: center;
   padding: 6px 16px;
   border-radius: 12px;
+  color: var(--col-50);
   background-color: var(--col-900);
   transition: all 0.3s linear;
   &:hover {
+    color: var(--col-50);
     background-color: var(--col-700);
   }
   &:active {
+    color: var(--col-50);
     background-color: var(--col-800);
   }
 }

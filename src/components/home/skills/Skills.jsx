@@ -15,7 +15,7 @@ import GitIcon from "@/assets/skills/git.svg";
 import FigmaIcon from "@/assets/skills/figma.svg";
 import PsIcon from "@/assets/skills/ps.svg";
 
-export default function About() {
+export default function Skills() {
   return (
     <section id="skills" className="skills">
       <div className="container">

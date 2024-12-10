@@ -5,7 +5,6 @@ import Hamburger from "hamburger-react";
 import Link from "next/link";
 import { menuLinks } from "@/context/context";
 import Logo from "@/components/header/logo/Logo";
-import LightButton from "@/assets/header/lightButton.svg";
 
 export default function MobileMenu() {
   const [isOpen, setOpen] = useState(false);
@@ -32,14 +31,8 @@ export default function MobileMenu() {
               );
             })}
           </ul>
-          <div className="mobile-buttons">
-            <div className="df aic jcsb">
-              <div className="b2">Switch Theme</div>
-              <button aria-label="switch button">
-                <LightButton />
-              </button>
-            </div>
-            <a href="/resume/resume.pdf"className="button b2m" download>
+          <div className="df aic jcc">
+            <a href="/resume/resume.pdf" className="button b2m" download>
               Download Resume
             </a>
           </div>

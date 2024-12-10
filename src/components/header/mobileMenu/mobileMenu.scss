@@ -17,15 +17,9 @@
     flex-direction: column;
     gap: 16px;
     padding: 16px;
-    margin-top: 4px;
+    margin: 4px 0 16px;
     border-top: 1px solid var(--col-100);
     border-bottom: 1px solid var(--col-100);
-  }
-  .mobile-buttons {
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
   }
 }
 

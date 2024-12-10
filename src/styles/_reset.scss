@@ -150,15 +150,15 @@ a {
   background: transparent;
   text-decoration: none;
   outline: none;
-  color: var(--col-50);
+  color: var(--col-900);
   &:visited {
-    color: var(--col-50);
+    color: var(--col-900);
   }
   &:focus {
-    color: var(--col-50);
+    color: var(--col-900);
   }
   &:hover {
-    color: var(--col-50);
+    color: var(--col-900);
   }
 }
 

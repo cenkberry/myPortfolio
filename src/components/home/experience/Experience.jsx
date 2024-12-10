@@ -2,7 +2,7 @@ import "./experience.scss";
 import SectionHeader from "@/components/elements/SectionHeader";
 import Image from "next/image";
 
-export default function About() {
+export default function Experience() {
   return (
     <section id="experience" className="experience dark-bg">
       <div className="container">
