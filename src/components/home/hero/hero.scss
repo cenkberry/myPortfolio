@@ -22,7 +22,11 @@
     .subtitle {
       margin-bottom: 24px;
       @media screen and (min-width: 1024px) {
+        padding-right: 20px;
         margin-bottom: 48px;
+      }
+      @media screen and (min-width: 1440px) {
+        padding-right: 12%;
       }
     }
     .infos {
