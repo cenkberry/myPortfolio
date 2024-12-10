@@ -10,8 +10,7 @@
   }
   &-content {
     @media screen and (min-width: 1023px) {
-      padding-left: 16px;
-      padding-right: 32px;
+      padding: 0 32px 0 16px;
     }
     .title {
       color: var(--col-900);

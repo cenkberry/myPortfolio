@@ -1,4 +1,5 @@
 import "./hero.scss";
+import { heroContext } from "@/context/context";
 import Link from "next/link";
 import Image from "next/image";
 import Place from "@/assets/hero/place.svg";
@@ -14,26 +15,16 @@ export default function Hero() {
         <div className="row aic">
           <div className="box-lap-7 order-2 order-lap-1">
             <div className="hero-content">
-              <div className="title h1">Hi, I am Cenk Beri 👋</div>
-              <div className="subtitle b2">
-                A frontend developer with 10 years of experience specializing in
-                HTML, CSS, JavaScript, React.js, and Next.js. I have extensive
-                experience with Firebase, Supabase, and testing with Jest.
-                Skilled in creating user-friendly, high-performance web
-                applications, I actively use design tools like Figma, Photoshop,
-                and Adobe XD. I’ve contributed to global projects at an
-                international firm abroad, constantly improving my technical and
-                strategic approach. My goal is to build innovative, efficient,
-                and visually appealing digital experiences.
-              </div>
+              <div className="title h1">{heroContext.title}</div>
+              <div className="subtitle b2">{heroContext.content}</div>
               <div className="infos">
                 <div>
                   <Place />
-                  <div className="b2">Istanbul, Turkey</div>
+                  <div className="b2">{heroContext.location}</div>
                 </div>
                 <div>
                   <Status />
-                  <div className="b2">Available for new projects</div>
+                  <div className="b2">{heroContext.status}</div>
                 </div>
               </div>
               <div className="social">
@@ -63,7 +54,7 @@ export default function Hero() {
               <div className="profile-photo">
                 <Image
                   priority={true}
-                  src="/hero/hero.webp"
+                  src={heroContext.imagePath}
                   alt=""
                   width={463}
                   height={463}

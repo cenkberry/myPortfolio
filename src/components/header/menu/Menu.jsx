@@ -1,6 +1,6 @@
 import "./menu.scss";
 import Link from "next/link";
-import { menuLinks } from "@/context/context";
+import { headerContext } from "@/context/context";
 
 export default function Links() {
     return (
@@ -8,7 +8,7 @@ export default function Links() {
         <div className="menu">
           <ul>
             {
-             menuLinks?.map((link , id) => {
+             headerContext.menu.map((link , id) => {
                return(
                 <li key={id}>
                   <Link href={link.url} className="b2m">{link.name}</Link>

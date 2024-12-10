@@ -2,7 +2,7 @@
   display: block;
   width: 100%;
   margin: 0 auto;
-  padding: 0 4px;
+  padding: 0 8px;
   @media screen and (min-width: 1023px) {
     padding: 0 16px;
     max-width: 1472px;
@@ -12,25 +12,16 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -4px;
-  margin-left: -4px;
+  margin-right: -8px;
+  margin-left: -8px;
   .box,
   [class*="box-"] {
-    padding-right: 4px;
-    padding-left: 4px;
+    padding-right: 8px;
+    padding-left: 8px;
   }
   > * {
     flex-shrink: 0;
     width: 100%;
-  }
-  @media screen and (min-width: 1023px) {
-    margin-right: -8px;
-    margin-left: -8px;
-    .box,
-    [class*="box-"] {
-      padding-right: 8px;
-      padding-left: 8px;
-    }
   }
 }
 

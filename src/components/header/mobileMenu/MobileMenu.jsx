@@ -1,9 +1,9 @@
 "use client";
 import "./mobileMenu.scss";
 import { useState } from "react";
+import { headerContext } from "@/context/context";
 import Hamburger from "hamburger-react";
 import Link from "next/link";
-import { menuLinks } from "@/context/context";
 import Logo from "@/components/header/logo/Logo";
 
 export default function MobileMenu() {
@@ -21,7 +21,7 @@ export default function MobileMenu() {
         <div className={`mobileMenu ${isOpen ? "active" : ""}`}>
           <Logo />
           <ul>
-            {menuLinks?.map((link, id) => {
+            {headerContext.menu?.map((link, id) => {
               return (
                 <li key={id}>
                   <Link href={link.url} className="b2m" onClick={handleClick}>
@@ -33,7 +33,7 @@ export default function MobileMenu() {
           </ul>
           <div className="df aic jcc">
             <a href="/resume/resume.pdf" className="button b2m" download>
-              Download Resume
+              {headerContext.resume}
             </a>
           </div>
         </div>
