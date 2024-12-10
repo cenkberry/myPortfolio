@@ -34,7 +34,7 @@ export default function Footer() {
               <div id="mailAddress" className="h3">
                 {footerContext.mail}
               </div>
-              <button className="copyMail" onClick={handleCopy}>
+              <button className="copyMail" aria-label="copy button" onClick={handleCopy}>
                 <CopyIcon />
                 {copied ? <CheckIcon className="checkIcon" /> : null}
               </button>
