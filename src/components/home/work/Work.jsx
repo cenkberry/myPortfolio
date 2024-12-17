@@ -23,7 +23,7 @@ export default function Work() {
                   className="shadow"
                   loading="lazy"
                   src={workContext.mabel.image}
-                  alt="mabel gorup"
+                  alt="mabel group"
                   width={616}
                   height={406}
                   unoptimized
@@ -94,6 +94,46 @@ export default function Work() {
                   <Link
                     href="https://www.ekmargroup.com/"
                     aria-label="ekmar group"
+                    target="_blank"
+                  >
+                    <div className="icon-button">
+                      <LinkIcon />
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="item shadow">
+          <div className="row">
+            <div className="box-lap-6">
+              <div className="item-picture">
+                <Image
+                  className="shadow"
+                  loading="lazy"
+                  src={workContext.apple.image}
+                  alt="apple gaming"
+                  width={616}
+                  height={435}
+                  unoptimized
+                />
+              </div>
+            </div>
+            <div className="box-lap-6">
+              <div className="item-content">
+                <div className="title subb">{workContext.apple.title}</div>
+                <div className="subtitle b2">{workContext.apple.content}</div>
+                <div className="items">
+                  <div className="tag">Html</div>
+                  <div className="tag">Css</div>
+                  <div className="tag">Javascript</div>
+                  <div className="tag">Figma</div>
+                </div>
+                <div className="link">
+                  <Link
+                    href="https://cenkberry.github.io/AppleGame/"
+                    aria-label="apple gaming"
                     target="_blank"
                   >
                     <div className="icon-button">

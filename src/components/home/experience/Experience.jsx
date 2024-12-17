@@ -34,7 +34,7 @@ export default function Experience() {
                 <div className="detail b2">Figma Pixel Perfect Design</div>
               </div>
             </div>
-            <div className="dates b2">Sep 2003 - Oct 2024</div>
+            <div className="dates b2">Sep 2023 - Oct 2024</div>
           </div>
           <div className="item shadow">
             <div className="image">
@@ -58,7 +58,7 @@ export default function Experience() {
                 <div className="detail b2">Figma Pixel Perfect Design</div>
               </div>
             </div>
-            <div className="dates b2">May 2002 - June 2023</div>
+            <div className="dates b2">May 2022 - June 2023</div>
           </div>
           <div className="item shadow">
             <div className="image">

@@ -59,6 +59,12 @@ export const workContext = {
     content:
       "I developed an informational website for Ekmar Group, highlighting its expertise in feed milling equipment. The site showcases the role of specialized machinery in producing high-quality animal feed, essential for agriculture and farming. With a clean design and clear content, it effectively presents Ekmar Groups industry knowledge and commitment to quality.",
   },
+  apple: {
+    image: "/work/apple.webp",
+    title: "Apple Game",
+    content:
+      "I developed an informational website for Apple Gaming, a platform dedicated to supporting game development companies. The website highlights Apple Gaming’s expertise in providing certification services for video games, ensuring compliance with industry standards and facilitating smooth market entry for game developers. With a sleek design and user-friendly interface, the site effectively showcases Apple Gaming’s role as a trusted partner for game studios aiming to meet certification requirements and enhance their market presence.",
+  },
 };
 
 export const footerContext = {
