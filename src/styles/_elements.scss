@@ -5,7 +5,7 @@
   justify-content: center;
   padding: 6px 16px;
   border-radius: 12px;
-  color: var(--col-50);
+  color: var(--col-50) !important;
   background-color: var(--col-900);
   transition: all 0.3s linear;
   &:hover {
