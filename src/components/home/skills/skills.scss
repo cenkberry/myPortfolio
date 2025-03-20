@@ -19,6 +19,10 @@
       flex-direction: column;
       text-align: center;
       gap: 4px;
+      > svg {
+        width: 64px;
+        height: 64px;
+      }
       @media screen and (min-width: 1024px) {
         gap: 8px;
       }

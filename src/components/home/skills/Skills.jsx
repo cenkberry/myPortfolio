@@ -13,7 +13,14 @@ import BsIcon from "@/assets/skills/bs.svg";
 import TwIcon from "@/assets/skills/tailwind.svg";
 import GitIcon from "@/assets/skills/git.svg";
 import FigmaIcon from "@/assets/skills/figma.svg";
-import PsIcon from "@/assets/skills/ps.svg";
+import JqIcon from "@/assets/skills/jquery.svg";
+import MaterialIcon from "@/assets/skills/material.svg";
+import ShadcnIcon from "@/assets/skills/shadcn.svg";
+import CypressIcon from "@/assets/skills/cypress.svg";
+import GulpIcon from "@/assets/skills/gulp.svg";
+import PostmanIcon from "@/assets/skills/postman.svg";
+import StrapiIcon from "@/assets/skills/strapi.svg";
+import StorybookIcon from "@/assets/skills/storybook.svg";
 
 export default function Skills() {
   return (
@@ -41,6 +48,18 @@ export default function Skills() {
             <div className="b1">Javascript</div>
           </div>
           <div className="item">
+            <JqIcon />
+            <div className="b1">Jquery</div>
+          </div>
+          <div className="item">
+            <JestIcon />
+            <div className="b1">Jest</div>
+          </div>
+          <div className="item">
+            <CypressIcon />
+            <div className="b1">Cypress</div>
+          </div>
+          <div className="item">
             <ReactIcon />
             <div className="b1">React.js</div>
           </div>
@@ -53,14 +72,6 @@ export default function Skills() {
             <div className="b1">Typescript</div>
           </div>
           <div className="item">
-            <JestIcon />
-            <div className="b1">Jest</div>
-          </div>
-          <div className="item">
-            <FirebaseIcon />
-            <div className="b1">Firebase</div>
-          </div>
-          <div className="item">
             <BsIcon />
             <div className="b1">Bootstrap</div>
           </div>
@@ -69,16 +80,40 @@ export default function Skills() {
             <div className="b1">Tailwind</div>
           </div>
           <div className="item">
-            <GitIcon />
-            <div className="b1">Git</div>
+            <MaterialIcon />
+            <div className="b1">Material UI</div>
+          </div>
+          <div className="item">
+            <ShadcnIcon />
+            <div className="b1">Shadcn UI</div>
+          </div>
+          <div className="item">
+            <FirebaseIcon />
+            <div className="b1">Firebase</div>
+          </div>
+          <div className="item">
+            <PostmanIcon />
+            <div className="b1">Postman</div>
+          </div>
+          <div className="item">
+            <StrapiIcon />
+            <div className="b1">Strapi</div>
           </div>
           <div className="item">
             <FigmaIcon />
             <div className="b1">Figma</div>
           </div>
           <div className="item">
-            <PsIcon />
-            <div className="b1">Photoshop</div>
+            <StorybookIcon />
+            <div className="b1">Storybook</div>
+          </div>
+          <div className="item">
+            <GitIcon />
+            <div className="b1">Git</div>
+          </div>
+          <div className="item">
+            <GulpIcon />
+            <div className="b1">Gulp</div>
           </div>
         </div>
       </div>
